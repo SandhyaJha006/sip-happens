@@ -1,0 +1,8 @@
+{
+  "name": "sip-happens-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist/frames && cp index.html style.css main.js dist/ && unzip -o frames/ezgif-442a6e85b60fa68d-jpg.zip -d dist/frames/extracted"
+  }
+}
