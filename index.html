@@ -20,7 +20,7 @@
 <body>
 
   <!-- Premium Loader Overlay -->
-  <div id="loader" class="loader-container">
+  <div id="loader" class="loader-container loader-fade-out">
     <div class="loader-content">
       <div class="loader-logo">
         <span class="logo-icon">🧋</span>
@@ -28,21 +28,21 @@
       </div>
       <p class="loader-status">Brewing the perfect experience...</p>
       <div class="loader-progress-bar">
-        <div id="loader-fill" class="loader-progress-fill"></div>
+        <div id="loader-fill" class="loader-progress-fill" style="width: 82%;"></div>
       </div>
-      <div id="loader-percent" class="loader-percentage">0%</div>
+      <div id="loader-percent" class="loader-percentage">82%</div>
     </div>
   </div>
 
   <!-- Main Website Content (Hidden until loaded) -->
-  <div id="app" class="app-hidden">
+  <div id="app" class="app-visible">
     
     <main>
       <!-- Scroll Animation Section -->
       <section id="scroll-section" class="scroll-container">
         <div class="sticky-viewport">
           <!-- Canvas for Frame Rendering -->
-          <canvas id="animation-canvas"></canvas>
+          <canvas id="animation-canvas" width="1910" height="915"></canvas>
           <div class="canvas-overlay"></div>
         </div>
       </section>
